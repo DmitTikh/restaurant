@@ -12,28 +12,31 @@
         <div class="container">
             <div class="header_wrapper">
                 <div class="logo">
-                    <img src="./img/Header/Logo.svg" alt="логотип ресторана">
+                    <img class="logo_img" src="./img/Header/Logo.svg" alt="логотип ресторана">
                 </div>
                 <nav class="header_nav">
-                    <ul class="header_nav_list">
-                        <li class="header_nav_item"><a href="#" class="header_nav_link">Главная</a></li>
-                        <li class="header_nav_item"><a href="#" class="header_nav_link">Меню</a></li>
-                        <li class="header_nav_item"><a href="#" class="header_nav_link">О нас</a></li>
-                        <li class="header_nav_item"><a href="#" class="header_nav_link">Бронь</a></li>
-                    </ul>
-                    <div class="header_basket">
-                        <img class="header_basket-img" src="./img/Header/cart.svg" alt="корзина">
+                    <div class="header_info">
+                        <ul class="header_nav_list">
+                            <li class="header_nav_item"><a href="#" class="header_nav_link">Главная</a></li>
+                            <li class="header_nav_item"><a href="#" class="header_nav_link">Меню</a></li>
+                            <li class="header_nav_item"><a href="#" class="header_nav_link">О нас</a></li>
+                            <li class="header_nav_item"><a href="#" class="header_nav_link">Бронь</a></li>
+                        </ul>
+                        <div class="header_basket">
+                            <img class="header_basket-img" src="./img/Header/cart.svg" alt="корзина">
+                        </div>
+                        <div class="contacts">
+                            <address class="contacts_address">
+                                <div class="contacts_phone">
+                                    <img class="contacts_phone_img" src="./img/Header/phone.svg" alt="телефон">
+                                    <a class="contacts_phone-link" href="tel:+9998887654">+999-888-76-54</a>
+                                </div>
+                                <div class="contacts_descr">Свяжитесь с нами для бронирования</div>
+                            </address>
+                            <button class="reservation-btn button">Заказ столика</button>
+                        </div>
                     </div>
-                    <div class="contacts">
-                        <address class="contacts_address">
-                            <div class="contacts_phone">
-                                <img class="contacts_phone_img" src="./img/Header/phone.svg" alt="телефон">
-                                <a class="contacts_phone-link" href="tel:+9998887654">+999-888-76-54</a>
-                            </div>
-                            <div class="contacts_descr">Свяжитесь с нами для бронирования</div>
-                        </address>
-                        <button class="reservation-btn button">Заказ столика</button>
-                    </div>
+                    <div class="header_burger"></div>
                 </nav>
             </div>
         </div>
@@ -42,9 +45,9 @@
         <section class="Promo">
             <div class="container">
                 <div class="promo_wrapper">
-                    <h2 class="Promo_header"><small class="Promo_supheader">Добро пожаловать в</small> <br>
-                    Наш ресторан</h2>
-                    <p class="Promo_subheader">Дом лучшей еды</p>
+                    <div class="Promo_supheader">Добро пожаловать в</div>
+                    <h1 class="Promo_header">Наш ресторан</h1>
+                    <div class="Promo_subheader">Дом лучшей еды</div>
                     <a class="View-menu-btn button" href="#">Посмотреть меню</a>
                 </div>
             </div>
@@ -53,25 +56,35 @@
             <div class="container">
                 <div class="advantages_wrapper">
                     <div class="advantages_item">
-                        <img class="advantages_icon" src="./img/Advantages/Advantages_icon.png" alt="блюдо на подносе">
+                        <div class="advantages_icon">
+                            <img class="advantages_icon-dish" src="./img/Advantages/Advantages_icon.svg" alt="блюдо на подносе">
+                        </div>
                         <h3 class="advantages_title">Магическая <span class="advantages_title-second-part">Атмосфера</span></h3>
                         <p class="advantages_descr">
                             В нашем заведении царит магическая атмосфера наполненная вкусными ароматами
                         </p>
                     </div>
                     <div class="advantages_item">
-                        <img class="advantages_icon" src="./img/Advantages/Advantages_icon.png" alt="блюдо на подносе">
+                    <div class="advantages_icon">
+                        <img class="advantages_icon-dish" src="./img/Advantages/Advantages_icon.svg" alt="блюдо на подносе">
+                    </div>
+                        
                         <h3 class="advantages_title">Лучшее качество <span class="advantages_title-second-part">Еды</span></h3>
                         <p class="advantages_descr">
                             Качество нашей Еды - отменное!                            
                         </p>
                     </div>
                     <div class="advantages_item">
-                        <img class="advantages_icon" src="./img/Advantages/Advantages_icon.png" alt="блюдо на подносе">
-                        <h3 class="advantages_title">Недорогая <span class="advantages_title-second-part">Еда</span></h3>
-                        <p class="advantages_descr">
-                            Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!
-                        </p>
+                        <div class="advantages_icon">
+                            <img class="advantages_icon-dish" src="./img/Advantages/Advantages_icon.svg" alt="блюдо на подносе">
+                        </div>
+                        <div class="advantages_descr">
+                            <h3 class="advantages_title">Недорогая <span class="advantages_title-second-part">Еда</span></h3>
+                            <p class="advantages_text">
+                                Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!
+                            </p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
