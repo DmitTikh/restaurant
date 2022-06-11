@@ -162,9 +162,7 @@ body {
     max-width: 15.5rem;
 }
 
-.reservation-btn {
-    width: 15.7rem;
-    height: 4.7rem;
+.header-btn {
     margin-left: 4.5rem;
     margin-top: 0.4rem;
 }
@@ -177,6 +175,8 @@ body {
     font-size: 1.4rem;
     cursor: pointer;
     border: none;
+    width: 15.7rem;
+    height: 4.7rem;
 }
 
 .promo_wrapper {
@@ -285,7 +285,9 @@ body {
     color: #656363;
     font-family: "Tinos", sans-serif;
 }
-
+.history {
+    padding-bottom: 12.2rem;
+}
 .history_wrapper {
     display: flex;
     justify-content: space-between;
@@ -339,6 +341,37 @@ body {
     font-family: 'Open Sans', 'sans-serif';
 }
 
+.booking {
+    background: url('img/Booking/booking_bg.png') no-repeat center/cover;
+}
+.booking_wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.booking-btn {
+    margin: 15.5rem 0 0 0;
+}
+.booking_title {
+    color: #D67E34; 
+    font-size: 5.2rem;
+    font-family: "Tinos", 'sans-serif';
+    font-weight: 400;
+    max-width: 60.1rem;
+    margin: 0;
+}
+.booking_subtitle {
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.booking_cla {
+    padding: 8rem 0 10.4rem 0;
+}
+
 @media (max-width: 80em) {
     html {
         font-size: 0.765vw; 
@@ -387,7 +420,7 @@ body {
     .advantages_text {
         font-size: 2.1rem;
     }
-    .history_wrapper, .stat {
+    .history_wrapper, .stat, .booking_wrapper {
         flex-direction: column;
         align-items: center;
     }
@@ -402,6 +435,24 @@ body {
     }
     .stat {
         margin-bottom: 4.5rem;
+    }
+    .booking-btn {
+       margin: 4.1rem 0 3rem 0;
+    }
+    .booking_cla {
+        padding: 0;
+        text-align: center;
+    }
+    .booking_title {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 3rem;
+        max-width: 19rem;
+        margin: 2rem auto auto;
+    }
+    .booking_subtitle {
+        font-size: 2.4rem;
+        max-width: 29rem;
     }
     
 }
